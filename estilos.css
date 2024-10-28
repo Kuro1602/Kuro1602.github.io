@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #100e31;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -71,6 +71,7 @@ form button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: inline-block;
 }
 
 form button:hover {
@@ -78,7 +79,7 @@ form button:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #100e31;
     color: white;
     text-align: center;
     padding: 10px 0;
