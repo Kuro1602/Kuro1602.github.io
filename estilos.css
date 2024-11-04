@@ -13,6 +13,10 @@ header {
     position: fixed;
     width: 100%;
     border: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    margin-top: 0px;
 }
 
 header h1 {
@@ -36,12 +40,16 @@ nav ul li a {
     text-decoration: none;
 }
 
+.nosotros {
+    padding-top: 50px;
+}
+
 section {
     padding: 20px;
     margin: 10px;
     background-color: white;
     border-radius: 5px;
-    margin-top: 0;
+    margin-top: 20px;
 }
 
 .gallery {
